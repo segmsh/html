@@ -1,0 +1,38 @@
+{
+  "name": "@segmsh/html",
+  "repository": "segmsh/html",
+  "license": "Apache-2.0",
+  "author": "Segm.sh",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@segmsh/core": "^0.2.0"
+  },
+  "dependencies": {
+    "hast-util-from-html": "^2.0.3",
+    "hast-util-to-html": "^9.0.5",
+    "property-information": "^7.1.0",
+    "unist-util-remove-position": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "eol": "^0.10.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.4"
+  }
+}
