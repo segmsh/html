@@ -26,13 +26,13 @@
   "dependencies": {
     "hast-util-from-html": "^2.0.3",
     "hast-util-to-html": "^9.0.5",
-    "property-information": "^7.1.0",
+    "property-information": "^7.2.0",
     "unist-util-remove-position": "^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
+    "@types/node": "^26.6.5",
     "eol": "^0.10.0",
-    "typescript": "^6.0.2",
-    "vitest": "^4.1.4"
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
   }
 }
