@@ -24,7 +24,7 @@
     "@segmsh/core": "^0.2.0"
   },
   "dependencies": {
-    "hast-util-from-html": "^2.0.3",
+    "hast-util-from-html": "^2.1.0",
     "hast-util-to-html": "^9.0.5",
     "property-information": "^7.2.0",
     "unist-util-remove-position": "^5.0.0"
